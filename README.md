@@ -78,6 +78,13 @@ CREATE TABLE `users` (
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 ```
+
+```sql
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+COMMIT;
+```
+
 And you are done whit the MySQL Part
 ### Setting up the project
 First you have to open config.yml and fill in your servers info here is the default config
