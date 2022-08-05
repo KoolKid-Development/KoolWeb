@@ -45,7 +45,6 @@
 
 	</head>
 	<body>
-		<!-- navigation bar start -->
 		<nav class="navbar navbar-expand-lg main-navbar">
 			<div class="container-fluid">
 			  <a class="navbar-brand" href="#dashboard">
@@ -69,11 +68,9 @@
 			        <a class="nav-link smooth-link" href="<?php print($vote_link); ?>">Vote</a>
 			      </li>
 			      <li class="nav-item">
-							<!-- change '#project' if you have a seperate project page -->
 			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Store</a>
 			      </li>
 				  <li class="nav-item">
-							<!-- change '#project' if you have a seperate project page -->
 			        <a class="nav-link smooth-link" href="launcher.php">Launcher</a>
 			      </li>
 						<li class="nav-item">
@@ -81,33 +78,19 @@
 						</li>
 			    </ul>
 			    <form class="form-inline">
-						<!-- change '#contact' if you have a seperate contact page -->
 				    <a href="index.php?logout='1'" class="btn smooth-link align-middle btn-primary"><?php echo $_SESSION['username'];?></a>
 			    </form>
 			  </div>
 		  </div>
 		</nav>
-		<!-- navigation bar end -->
-
-		<!-- top background image start -->
 		<section class="hero bg-overlay" id="dashboard" data-bg="<?php print($backroundloggedin); ?>">
-		<!-- top background image end -->
-
-		<!-- main text over background image start -->
 			<div class="text">
 			<h1><span class="bold"><?php print($seo_title); ?></h1><br />
 		    <h3><span class="bold"><?php print($seo_description); ?></h3><br />
-				<!-- onlineplayers display start -->
-				<!-- onlineplayers display end -->
 				<div class="cta">
-					<!-- EDIT THIS WHIT YOU LAUNCHER NAME AND UPLOAD YOU LAUNCHER TO /DOWNLOAD	 -->
-					<!-- <a download href="/download/yourlaunchername.exe" class="btn btn-primary smooth-link">Download</a> -->
 				</div>
 			</div>
-		<!-- main text over background image end -->
 		</section>
-		
-		<!-- footer end -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="../js/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>

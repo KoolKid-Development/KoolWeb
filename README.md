@@ -4,6 +4,9 @@ A custom minecraft portal whit koollauncher integration for you server!
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+# Test the website live
+
+https://kool-kid.xyz/live/koolweb
 
 ## Authors
 

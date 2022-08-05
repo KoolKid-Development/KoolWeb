@@ -33,23 +33,13 @@
   </head>
 
   <body>
-
-    <!-- loader start -->
     <div id="loader-wrapper">
         <div id="loader"></div>
-
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-
     </div>
-    <!-- loader end -->
-
-    <!-- content start -->
     <div id="content">
-
     </div>
-    <!-- content end -->
-
   </body>
 
 

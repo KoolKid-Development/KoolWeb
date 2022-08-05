@@ -45,8 +45,6 @@
     <?php } ?>
 
 	</head>
-	<body>
-		<!-- navigation bar start -->
 		<nav class="navbar navbar-expand-lg main-navbar">
 			<div class="container-fluid">
 			  <a class="navbar-brand" href="#dashboard">
@@ -89,24 +87,16 @@
 			<div class="text">
 			<h1><span class="bold"><?php print($launchername); ?></h1><br />
 		    <h3><span class="bold"><?php print($launcherdesc); ?></h3><br />
-				<!-- onlineplayers display start -->
-				<!-- onlineplayers display end -->
 				<div class="cta">
-					<!-- EDIT THIS WHIT YOU LAUNCHER NAME AND UPLOAD YOU LAUNCHER TO /DOWNLOAD	 -->
-					<!-- <a download href="/download/yourlaunchername.exe" class="btn btn-primary smooth-link">Download</a> -->
 				</div>
 			</div>
-		<!-- main text over background image end -->
 		</section>
         <section class="padding bg-grey">
-			<!-- Copy&Paste from HERE to (1) -->
 			<div class="container">
 				<center><h2 class="section-title">Features</h2>
 				<p class="section-lead text-muted">Here you can see a small overview of all the awesome things we can provide in our launcher!.</p></center>
 				<div class="section-body">
-					<!-- Copy&Paste from HERE to (2) -->
 					<div class="row col-spacing">
-						<!-- Copy&Paste from HERE to (3) -->
 						<div class="col-12 col-md-6 col-lg-4">
 						<center> 
 						    <article class="card">
@@ -115,14 +105,10 @@
 								  <div class="card-subtitle mb-2 text-muted"></div>
 							    <h4 class="card-title"><a href="example-game.php">Login Page</a></h4>
 							    <p class="card-text">You can login whit you email and your password form our website!</p>
-							    <!-- <div class="text-right"> 
-								    <a href="example-game.php" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
-							    </div> -->
 						    </div>
 						  </article>
                          </center>
 					  </div>
-						<!-- HERE to create a new preview card (3) -->
 					  <div class="col-12 col-md-6 col-lg-4">
 					  <center>
 							<article class="card">
@@ -135,8 +121,6 @@
 						  </article>
                          </center>
 						</div>
-
-						<!-- HERE to create a new preview card (3) -->
 						<div class="col-12 col-md-6 col-lg-4">
 					  <center>
 							<article class="card">
@@ -149,10 +133,8 @@
 						  </article>
                          </center>
 						</div>
-						
 					  </div>
 					</div>
-					<!-- HERE to create a new row (2) -->
 				</div>
 			</div>
 		</section>
@@ -189,7 +171,6 @@
 				</p>
 			</div>
 		</footer>
-		<!-- footer end -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="../js/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
