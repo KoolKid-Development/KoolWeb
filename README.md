@@ -60,7 +60,7 @@ and paste this code
 
 To execute this command press ```CTRL + ENTER``` on your keyboard
 ```sql
-CREATE DATABASE KoolWeb2;
+CREATE DATABASE KoolWeb;
 ```
 After that you have to select that database and go to the `SQL` tab and paste this commands! 
 
