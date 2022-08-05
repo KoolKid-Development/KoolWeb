@@ -52,7 +52,7 @@ First you have to download the project from here
 ```bash
   git clone https://github.com/KoolKid-Development/KoolWeb.git
 ```
-or download it from this link: https://kool-kid.xyz/download/koolweb.zip
+or download it from this link: https://github.com/KoolKid-Development/KoolWeb/archive/refs/heads/main.zip
 
 ### Setting Up MySQL
 First you have to login phpmyadmin then go to `SQL` TAB
