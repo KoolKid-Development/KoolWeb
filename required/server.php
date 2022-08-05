@@ -4,7 +4,7 @@ $username = "";
 $email    = "";
 $errors = array(); 
 //IP,username,password,databasename
-$db = mysqli_connect('136.243.219.97', 'koolkidx_l', 'i1n9Zb*jqpQR', 'koolkidx_l');
+$db = mysqli_connect('yourdatabaseip', 'yourdatabaseuser', 'yourdatabasepassword', 'yourdatabasename');
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
   $username = mysqli_real_escape_string($db, $_POST['username']);
