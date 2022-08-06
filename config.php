@@ -22,7 +22,6 @@ $launcherappname = "Launcher.exe"; //Your launcher.exe name!
  Google Analytics (ga)
  By enabling Google Analytics on this site, you can get valuable data on who visits the site.
  See the following link to find out where to find the tracking ID.
- THIS THING DOSE NOT WORK IN THIS VERSION WAIT FOR THE NEW VERSION TO RELASE
 */
 $enable_ga = false; // If set to true, please provide tracking code below
 $ga_tracking_id = ""; // Please only enter the tracking ID, not the full code snippet
