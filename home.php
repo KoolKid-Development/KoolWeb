@@ -62,11 +62,15 @@ include("config.php");
 			        <a class="nav-link smooth-link" href="<?php print($vote_link); ?>">Vote</a>
 			      </li>
     <?php } ?> 
-	<?php if ($enable_store) { ?>
+	<?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Store</a>
+			      </li>
+    <?php } ?> 
+				    <?php if ($enable_store) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Store</a>
 			      </li>
-    <?php } ?> 
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
@@ -197,6 +201,11 @@ include("config.php");
 	<?php if ($enable_store) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Magazin</a>
+			      </li>
+    <?php } ?> 
+				    <?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Store</a>
 			      </li>
     <?php } ?> 
 				  <?php if ($launcher_enable) { ?>
