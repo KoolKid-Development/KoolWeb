@@ -62,18 +62,19 @@ include("config.php");
 			        <a class="nav-link smooth-link" href="<?php print($vote_link); ?>">Vote</a>
 			      </li>
     <?php } ?> 
-	<?php if ($enable_bans) { ?>
-					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
-			      </li>
-    <?php } ?> 
-				    <?php if ($enable_store) { ?>
+	<?php if ($enable_store) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Store</a>
 			      </li>
+    <?php } ?> 
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
+			      </li>
+    <?php } ?> 
+				    	<?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
 			      </li>
     <?php } ?> 
 				 
@@ -110,7 +111,7 @@ include("config.php");
 			    </ul>
 				<?php if ($loginbutton) { ?>
 								    <form class="form-inline">
-				    <a href="./auth/login.php" class="btn smooth-link align-middle btn-primary">Login</a>
+				    <a href="index.php?logout='1'" class="btn smooth-link align-middle btn-primary"><?php echo $_SESSION['username'];?></a>
 			    </form>
 			      </li>
     <?php } ?> 
@@ -182,11 +183,11 @@ include("config.php");
 			    	<i class="ion-navicon"></i>
 			    </span>
 			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNav">
+			 <div class="collapse navbar-collapse" id="navbarNav">
 				  <div class="mr-auto"></div>
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link smooth-link" href="home.php">Acasa</a>
+			        <a class="nav-link smooth-link" href="home.php">Home</a>
 			      </li>
 			      <?php if ($enable_forum) { ?>
 					<li class="nav-item">	
@@ -195,22 +196,22 @@ include("config.php");
     <?php } ?> 
 	<?php if ($enable_vote) { ?>
 					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="<?php print($vote_link); ?>">Votati-ne</a>
+			        <a class="nav-link smooth-link" href="<?php print($vote_link); ?>">Vote</a>
 			      </li>
     <?php } ?> 
 	<?php if ($enable_store) { ?>
 					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Magazin</a>
-			      </li>
-    <?php } ?> 
-	<?php if ($enable_bans) { ?>
-					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
+			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Store</a>
 			      </li>
     <?php } ?> 
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
+			      </li>
+    <?php } ?> 
+				    	<?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
 			      </li>
     <?php } ?> 
 				 
@@ -247,7 +248,7 @@ include("config.php");
 			    </ul>
 				<?php if ($loginbutton) { ?>
 								    <form class="form-inline">
-				    <a href="./auth/login.php" class="btn smooth-link align-middle btn-primary">Autentificare</a>
+				    <a href="index.php?logout='1'" class="btn smooth-link align-middle btn-primary"><?php echo $_SESSION['username'];?></a>
 			    </form>
 			      </li>
     <?php } ?> 
