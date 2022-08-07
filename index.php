@@ -14,10 +14,10 @@
     <link rel="icon" type="image/x-icon" href="<?php print($favicon); ?>">
 		<title><?php print($seo_title); ?></title>
     <meta http-equiv="refresh" content="<?php print($preloadertime); ?>;url=home.php" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/loader.css">
-    <link rel="stylesheet" href="css/wtm.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/wtm.css">
+    <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
     <?php if ($enable_ga) { ?>
         <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,7 +44,7 @@
 
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
