@@ -20,29 +20,29 @@ $logo = "./img/logo.png"; //Your logo
 $backround = "./img/main-bg.png"; //Your backround
 
 //Website header links
-$store_link = "https://store.yourmc.net";
-$enable_store = false;
-$bans_link = "https://bans.yourmc.net";
-$enable_bans = true;
-$vote_link = "https://vote.yourmc.net";
-$enable_vote = false;
-$forum_link = "https://forum.yourmc.net";
-$enable_forum = false;
-$discord_invite = "https://discord.com";
-$enable_discord = false;
-$teamspeak_link = "https://ts.yourmc.net";
-$teamspeak_enable = false; 
-$staffpanel_link = "https://staffpanel.yourmc.net";
-$staffpanel_enable = false;   
-$custom_link1 = "https://customlink1.yourmc.net";
-$custom_link1_name = "Custom Link";
-$custom_link1_enable = false;
-$custom_link2 = "https://customlink1.yourmc.net";
-$custom_link2_name = "Custom Link";
-$custom_link2_enable = false;
-$custom_link3 = "https://customlink1.yourmc.net";
-$custom_link3_name = "Custom Link";
-$custom_link3_enable = false;
+$store_link = "https://store.yourmc.net"; //Your store url
+$enable_store = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$bans_link = "https://bans.yourmc.net"; //Your litebans url
+$enable_bans = true; //Here you can use true / false to hide this from the navbar true = show false = hide
+$vote_link = "https://vote.yourmc.net"; //Your vote url
+$enable_vote = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$forum_link = "https://forum.yourmc.net"; //Your forum url
+$enable_forum = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$discord_invite = "https://discord.com"; //Your discord invite url
+$enable_discord = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$teamspeak_link = "https://ts.yourmc.net"; //Your teamspeak url
+$teamspeak_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$staffpanel_link = "https://staffpanel.yourmc.net"; //Your staff panel url
+$staffpanel_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$custom_link1 = "https://customlink1.yourmc.net"; //Your custom url
+$custom_link1_name = "Custom Link"; //Your custom url name
+$custom_link1_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$custom_link2 = "https://customlink1.yourmc.net"; //Your custom url
+$custom_link2_name = "Custom Link"; //Your custom url name
+$custom_link2_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+$custom_link3 = "https://customlink1.yourmc.net"; //Your custom url
+$custom_link3_name = "Custom Link"; //Your custom url name
+$custom_link3_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
 
 
 
