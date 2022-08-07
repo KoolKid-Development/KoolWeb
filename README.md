@@ -1,5 +1,5 @@
 # KoolWeb 
-A custom minecraft portal whit koollauncher integration for you server!
+A custom minecraft portal with koollauncher integration for you server!
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -88,7 +88,7 @@ ALTER TABLE `users`
 COMMIT;
 ```
 
-And you are done whit the MySQL Part
+And you are done with the MySQL Part
 ### Setting up the project
 First you have to open config.yml and fill in your servers info here is the default config
 
