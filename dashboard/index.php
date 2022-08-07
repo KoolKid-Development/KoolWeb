@@ -76,6 +76,12 @@
 			        <a class="nav-link smooth-link" href="<?php print($store_link); ?>">Magazin</a>
 			      </li>
     <?php } ?> 
+				    	<?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
+			      </li>
+    <?php } ?> 
+				    
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
@@ -207,6 +213,11 @@
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
 			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
+			      </li>
+    <?php } ?> 
+				    	<?php if ($enable_bans) { ?>
+					<li class="nav-item">	
+			        <a class="nav-link smooth-link" href="<?php print($bans_link); ?>">Bans</a>
 			      </li>
     <?php } ?> 
 				 
