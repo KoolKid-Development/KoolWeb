@@ -104,7 +104,7 @@
 							  <div class="card-body">
 								  <div class="card-subtitle mb-2 text-muted"></div>
 							    <h4 class="card-title"><a href="example-game.php">Login Page</a></h4>
-							    <p class="card-text">You can login whit you email and your password form our website!</p>
+							    <p class="card-text">You can login with you email and your password from our website!</p>
 						    </div>
 						  </article>
                          </center>
