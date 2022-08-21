@@ -111,7 +111,7 @@ include("config.php");
 			    </ul>
 				<?php if ($loginbutton) { ?>
 								    <form class="form-inline">
-				    <a href="index.php?logout='1'" class="btn smooth-link align-middle btn-primary"><?php echo $_SESSION['username'];?></a>
+				    <a href="./auth/login.php" class="btn smooth-link align-middle btn-primary">Login</a>
 			    </form>
 			      </li>
     <?php } ?> 
