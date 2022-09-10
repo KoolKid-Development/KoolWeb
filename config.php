@@ -59,7 +59,7 @@ $launcherdesc = "Your launcher description here!"; //Your launcher description h
 $launcherappname = "Launcher.exe"; //Your launcher.exe name!
 
 //MySQL Config
-//TO USE MYSQL AND THE LAUNCHER YOU NEED TO GO TO /REQUIRED/config.php
+//TO USE MYSQL AND THE LAUNCHER YOU NEED TO GO TO /REQUIRED/server.php
 
 
 /*
