@@ -6,7 +6,7 @@ A custom minecraft portal with koollauncher integration for you server!
 
 # Test the website live
 
-https://kool-kid.xyz/live/koolweb
+[https://kool-kid.xyz/live/koolweb](https://kool-kid.xyz/live/koolweb/index.php)
 
 ## Authors
 
