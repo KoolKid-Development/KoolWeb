@@ -1,10 +1,11 @@
+<?php include("../config.php"); ?>
 <?php
 session_start();
 $username = "";
 $email    = "";
 $errors = array(); 
 //IP,username,password,databasename
-$db = mysqli_connect('127.0.0.1', 'Database username', 'Database password', 'Database name!');
+$db = mysqli_connect($mysqlhost, $mysqluser, $mysqlpass, $mysqldbname);
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
   $username = mysqli_real_escape_string($db, $_POST['username']);

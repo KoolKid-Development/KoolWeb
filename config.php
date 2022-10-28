@@ -14,6 +14,13 @@ $lang_ro = false; // This is the Romaian version off the website you can set thi
 $lang_custom = false; // This is the custom language off the website you can set this only on true or false to edit this go at the bottom off the page!
 //Only 1 thing can be true here if you dont want your portal page to dont work
 
+
+$mysqlhost = "localhost"; # Database host
+$mysqluser = "root"; # Database user
+$mysqlpass = ""; # Database password
+$mysqldbname = "koolweb"; # Database name
+
+
 //Website not logged in!
 $favicon = "./img/favicon.png"; //Your favicon
 $logo = "./img/logo.png"; //Your logo
@@ -43,6 +50,8 @@ $custom_link2_enable = false; //Here you can use true / false to hide this from 
 $custom_link3 = "https://customlink1.yourmc.net"; //Your custom url
 $custom_link3_name = "Custom Link"; //Your custom url name
 $custom_link3_enable = false; //Here you can use true / false to hide this from the navbar true = show false = hide
+
+
 
 
 
