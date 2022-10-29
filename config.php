@@ -15,6 +15,7 @@ $lang_custom = false; // This is the custom language off the website you can set
 //Only 1 thing can be true here if you dont want your portal page to dont work
 
 
+//MySQL Config
 $mysqlhost = "localhost"; # Database host
 $mysqluser = "root"; # Database user
 $mysqlpass = ""; # Database password
@@ -30,7 +31,7 @@ $backround = "./img/main-bg.png"; //Your backround
 $store_link = "https://store.yourmc.net"; //Your store url
 $enable_store = false; //Here you can use true / false to hide this from the navbar true = show false = hide
 $bans_link = "https://bans.yourmc.net"; //Your litebans url
-$enable_bans = true; //Here you can use true / false to hide this from the navbar true = show false = hide
+$enable_bans = false; //Here you can use true / false to hide this from the navbar true = show false = hide
 $vote_link = "https://vote.yourmc.net"; //Your vote url
 $enable_vote = false; //Here you can use true / false to hide this from the navbar true = show false = hide
 $forum_link = "https://forum.yourmc.net"; //Your forum url
@@ -62,13 +63,10 @@ $faviconloggedin = "../img/favicon.png"; //Your logo for logged in users
 
 
 //KoolLauncher 
-$launcher_enable = false;
+$launcher_enable = true;
 $launchername = "Your launcher name"; //Your launcher name
 $launcherdesc = "Your launcher description here!"; //Your launcher description here
 $launcherappname = "Launcher.exe"; //Your launcher.exe name!
-
-//MySQL Config
-//TO USE MYSQL AND THE LAUNCHER YOU NEED TO GO TO /REQUIRED/server.php
 
 
 /*

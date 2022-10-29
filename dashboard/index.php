@@ -84,7 +84,7 @@
 				    
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
+			        <a class="nav-link smooth-link" href="./launcher.php">Launcher</a>
 			      </li>
     <?php } ?> 
 				 
@@ -193,7 +193,7 @@
 				  <div class="mr-auto"></div>
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link smooth-link" href="home.php">Home</a>
+			        <a class="nav-link smooth-link" href="index.php">Home</a>
 			      </li>
 			      <?php if ($enable_forum) { ?>
 					<li class="nav-item">	
@@ -212,7 +212,7 @@
     <?php } ?> 
 				  <?php if ($launcher_enable) { ?>
 					<li class="nav-item">	
-			        <a class="nav-link smooth-link" href="./dashboard/launcher.php">Launcher</a>
+			        <a class="nav-link smooth-link" href="./launcher.php">Launcher</a>
 			      </li>
     <?php } ?> 
 				    	<?php if ($enable_bans) { ?>
